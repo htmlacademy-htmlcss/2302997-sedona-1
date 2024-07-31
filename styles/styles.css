@@ -16,13 +16,48 @@
   font-display: swap;
 }
 
+html {
+  height: 100%;
+}
+
 body {
+  margin: 0;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 21px;
   color: #333333;
-  background-color: #FFFFFF;
+  background-color: #F2F2F2;
+}
+
+.main-container {
+  flex-grow: 1;
+}
+
+.logoSedona {
+  margin-right: auto;
+  width: 138px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.navigation-list {
+  margin: 0;
+  padding: 0;
+  width: 570px;
+}
+
+.navigation-icon-list {
+  margin-left: auto;
+  max-width: 300px;
 }
 
 .navigation-link {
@@ -33,6 +68,11 @@ body {
   color: #000000;
   text-decoration: none;
   text-align: center;
+}
+
+.advantages-list {
+  margin: 0;
+  padding: 0;
 }
 
 .button {
@@ -46,10 +86,16 @@ body {
   text-transform: uppercase;
   text-align: center;
   padding: 8px 34px;
+  display: inline-block;
 }
 
 .big-button {
   padding: 8px 50px;
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700px;
+  line-height: 36px;
+  text-align: center;
 }
 
 .preview {
@@ -94,16 +140,10 @@ body {
 
 .very-light-blue {
   background-color: #83B3D31F;
-  width: 400px;
 }
 
 .light-blue {
   background-color: #83B3D333;
-  width: 400px;
-}
-
-.white-block {
-  width: 400px;
 }
 
 .advantages-description-black {
@@ -302,6 +342,7 @@ body {
 }
 
 .pagination-link {
+  display: inline-block;
   font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 20px;
@@ -345,6 +386,7 @@ body {
 
 .button-blue-blue {
   background-color: #82B3D3;
+  font-size: 16px;
 }
 
 .button-small {
@@ -384,4 +426,107 @@ body {
 
 .small-breadcrumbs {
   color: #FFFFFF;
+}
+
+.preview-logo {
+  display: block;
+  margin: 0 auto;
+}
+
+.advantages-list-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  height: 385px;
+}
+
+.advantages-item {
+  width: 400px;
+  min-height: 385px;
+}
+
+.footer-social-list {
+  width: 142px;
+  padding: 0;
+  margin: 0;
+  margin-left: 70px;
+  margin-right: 41px
+}
+
+.footer-contacts-phone {
+  width: 720px;
+  margin-right: 41px;
+}
+
+.footer-contacts-logo {
+  width: 115px;
+
+}
+
+.advantages-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.catalog-products {
+  display: flex;
+}
+
+.catalog-filter {
+  display: flex;
+}
+
+.product-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  width: 340px;
+  max-height: 438px;
+}
+
+.pagination {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 15px 0px #00000033;
+}
+
+.advantages-item-picture {
+  display: flex;
+}
+
+.advantages-item-wrapper {
+  width: 400px;
+}
+
+.page-footer {
+  display: flex;
+}
+
+.description-black {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
 }
